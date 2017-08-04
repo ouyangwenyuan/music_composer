@@ -3758,19 +3758,19 @@ webpackJsonp([0], [function(e, t, n) {
                     }
                 };
                 return e.pageOneImage = a({
-                    backgroundImage: 'url("//w1.smule.com/assets/community/piano/sidebar/help_modal/img_faq_tap@2x-de592f08305fff7209f869e2d3a68b60.png")'
+                    backgroundImage: 'url("./res/sidebar/help_modal/img_faq_tap@2x-de592f08305fff7209f869e2d3a68b60.png")'
                 }, e.helpImage),
                 e.pageTwoImage = a({
-                    backgroundImage: 'url("//w1.smule.com/assets/community/piano/sidebar/help_modal/img_faq_pinch_h@2x-c29bd85df6907d04f7fb51bfcacfa5e5.png")'
+                    backgroundImage: 'url("./res/sidebar/help_modal/img_faq_pinch_h@2x-c29bd85df6907d04f7fb51bfcacfa5e5.png")'
                 }, e.helpImage),
                 e.pageThreeImage = a({
-                    backgroundImage: 'url("//w1.smule.com/assets/community/piano/sidebar/help_modal/img_faq_pinch_v@2x-01915f3e010552aa628d0c4b43c4ddcf.png")'
+                    backgroundImage: 'url("./res/sidebar/help_modal/img_faq_pinch_v@2x-01915f3e010552aa628d0c4b43c4ddcf.png")'
                 }, e.helpImage),
                 e.pageFourImage = a({
-                    backgroundImage: 'url("//w1.smule.com/assets/community/piano/sidebar/help_modal/img_faq_twofinger@2x-1d24800f5c07c6aed350ef0016553307.png")'
+                    backgroundImage: 'url("./res/sidebar/help_modal/img_faq_twofinger@2x-1d24800f5c07c6aed350ef0016553307.png")'
                 }, e.helpImage),
                 e.pageFiveImage = a({
-                    backgroundImage: 'url("//w1.smule.com/assets/community/piano/sidebar/help_modal/img_faq_longtap@2x-ce043803a92b498cddce31036b6a5679.png")'
+                    backgroundImage: 'url("./res/sidebar/help_modal/img_faq_longtap@2x-ce043803a92b498cddce31036b6a5679.png")'
                 }, e.helpImage),
                 e
             }
@@ -5874,12 +5874,13 @@ webpackJsonp([0], [function(e, t, n) {
             return a(t, [{
                 key: "loadAssets",
                 value: function(e) {
-                    l.default.loader.add(["//w1.smule.com/assets/community/piano/texture2x-b8e7bdf5e5999c57d2b307a50c4a365d.json", "//w1.smule.com/assets/community/piano/sidebar/side_bar_gradient-4c8dcb592f4dc7f84279e94cbe38e8cb.jpg"]).on("progress", function() {
+                    l.default.loader.add(["./res/texture2x-b8e7bdf5e5999c57d2b307a50c4a365d.json", "./res/sidebar/side_bar_gradient-4c8dcb592f4dc7f84279e94cbe38e8cb.jpg"]).on("progress", function() {
                         console.log("Loading texture...")
                     }).load(function(t, n) {
-                        u.refs.textureCache = l.default.loader.resources["//w1.smule.com/assets/community/piano/texture2x-b8e7bdf5e5999c57d2b307a50c4a365d.json"].textures;
-                        for (var i in u.refs.textureCache)
+                        u.refs.textureCache = l.default.loader.resources["./res/texture2x-b8e7bdf5e5999c57d2b307a50c4a365d.json"].textures;
+                        for (var i in u.refs.textureCache){
                             u.refs.textureCache[i].baseTexture.mipmap || (u.refs.textureCache[i].baseTexture.mipmap = !0);
+                        }
                         e()
                     })
                 }
@@ -10678,7 +10679,7 @@ webpackJsonp([0], [function(e, t, n) {
                 o.viewConfig = i,
                 o._locked = !1,
                 o.background = f.default.get(c.SPRITE_TYPE.KEY_SIG_BG),
-                o.background.texture = e.loader.resources["//w1.smule.com/assets/community/piano/sidebar/side_bar_gradient-4c8dcb592f4dc7f84279e94cbe38e8cb.jpg"].texture,
+                o.background.texture = e.loader.resources["./res/sidebar/side_bar_gradient-4c8dcb592f4dc7f84279e94cbe38e8cb.jpg"].texture,
                 o.background.position.y = -i.hitLineY + i.gridHeight / 2,
                 o.background.width = c.config.sidebarWidth,
                 o.background.height = window.innerHeight,
@@ -15565,7 +15566,7 @@ webpackJsonp([0], [function(e, t, n) {
                     ref: "sound"
                 }, l.default.createElement("source", {
                     type: "audio/mpeg",
-                    src: "//w1.smule.com/assets/community/piano/metronome-6d353cdcc7e60c9dcdba5825a6fca527.mp3"
+                    src: "./res/metronome-6d353cdcc7e60c9dcdba5825a6fca527.mp3"
                 })), l.default.createElement("div", {
                     style: {
                         position: "relative"
@@ -18036,7 +18037,7 @@ webpackJsonp([0], [function(e, t, n) {
                         top: 25 * t + "%",
                         width: 4,
                         height: 1,
-                        backgroundImage: 'url("//w1.smule.com/assets/community/piano/sidebar/zoom/img_tic@2x-5afc397b00d468b4f8ff4dac8ac3707d.png")',
+                        backgroundImage: 'url("./res/sidebar/zoom/img_tic@2x-5afc397b00d468b4f8ff4dac8ac3707d.png")',
                         backgroundSize: "4px 1px"
                     };
                     return c.default.createElement("div", {
@@ -18172,7 +18173,7 @@ webpackJsonp([0], [function(e, t, n) {
             color: "#fff",
             fontWeight: 600,
             lineHeight: "48px",
-            backgroundImage: 'url("//w1.smule.com/assets/community/piano/sidebar/gradient_top@2x-23f6329f6874d95fb006b5c87c08cfe8.png")',
+            backgroundImage: 'url("./res/sidebar/gradient_top@2x-23f6329f6874d95fb006b5c87c08cfe8.png")',
             backgroundSize: 64,
             backgroundPosition: f.config.sidebarWidth
         },

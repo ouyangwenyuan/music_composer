@@ -482,7 +482,7 @@ object-assign
         sayHello: function(t) {
             if (!i._saidHello) {
                 if (navigator.userAgent.toLowerCase().indexOf("chrome") > -1) {
-                    var e = ["\n %c %c %c Pixi.js " + r.VERSION + " - ✰ " + t + " ✰  %c  %c  http://www.pixijs.com/  %c %c ♥%c♥%c♥ \n\n", "background: #ff66a5; padding:5px 0;", "background: #ff66a5; padding:5px 0;", "color: #ff66a5; background: #030307; padding:5px 0;", "background: #ff66a5; padding:5px 0;", "background: #ffc3dc; padding:5px 0;", "background: #ff66a5; padding:5px 0;", "color: #ff2424; background: #fff; padding:5px 0;", "color: #ff2424; background: #fff; padding:5px 0;", "color: #ff2424; background: #fff; padding:5px 0;"];
+                    var e = ["\n %c %c %c Pixi.js " + r.VERSION + " - * " + t + " *  %c  %c  http://www.pixijs.com/  %c %c *%c*%c* \n\n", "background: #ff66a5; padding:5px 0;", "background: #ff66a5; padding:5px 0;", "color: #ff66a5; background: #030307; padding:5px 0;", "background: #ff66a5; padding:5px 0;", "background: #ffc3dc; padding:5px 0;", "background: #ff66a5; padding:5px 0;", "color: #ff2424; background: #fff; padding:5px 0;", "color: #ff2424; background: #fff; padding:5px 0;", "color: #ff2424; background: #fff; padding:5px 0;"];
                     window.console.log.apply(console, e)
                 } else
                     window.console && window.console.log("Pixi.js " + r.VERSION + " - " + t + " - http://www.pixijs.com/");

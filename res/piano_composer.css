@@ -1,6 +1,6 @@
 .icon {
     background-size: 404px 340px;
-    background-image: url(//w1.smule.com/assets/community/piano/piano_sprite@2x-98fac54c647911b11e7bbc400fa01fa4.png)
+    background-image: url(./piano_sprite@2x-98fac54c647911b11e7bbc400fa01fa4.png)
 }
 
 .noselect {
@@ -291,7 +291,7 @@ input::-webkit-input-placeholder {
 }
 
 #sidebar .sidebar .sidebar-top-gradient {
-    background-image: url(//w1.smule.com/assets/community/piano/sidebar/side_bar_gradient-4c8dcb592f4dc7f84279e94cbe38e8cb.jpg)
+    background-image: url(./sidebar/side_bar_gradient-4c8dcb592f4dc7f84279e94cbe38e8cb.jpg)
 }
 
 #sidebar .sidebar .sidebar-mid-gradient {
